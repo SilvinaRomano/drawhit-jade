@@ -1,0 +1,59 @@
+.titulo1 { color: rgba(87, 0, 68, 0.966)} 
+h2{color: rgba(237, 154, 245, 0.966);}
+header{
+    background-image: url(logojv.jpg) ;
+
+text-align: center;
+font-size: larger;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.sec1{
+    color: rgb(247, 125, 247);
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+body{
+    background-image: url(img/36.jpg) ;
+    margin-left: 20px;
+    margin-right: 20px;}
+.dias, .hora {color: rgb(23, 134, 134); size: 100cap; }
+
+.horas {color:  rgb(133, 100, 117); size: 50cap;}
+
+.formulario{ 
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+background-color: color-mix(in srgb, color percentage, color percentage);
+text-align: center ;
+border-color: black;
+}
+
+
+
+.cajas{
+    
+}
+
+.caja1{background-color: red;}
+
+.caja2{background-color: blue;}
+
+.caja3{background-color: blueviolet;}
+
+@media 321px {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    
+}
+
+
+.carousel-item{
+    width: 500px;
+        margin: 20%;
+    padding: 10%;
+}
